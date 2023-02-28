@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		F02999FB29AEAC290006ECF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02999FA29AEAC290006ECF8 /* AppDelegate.swift */; };
 		F02999FD29AEAC290006ECF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02999FC29AEAC290006ECF8 /* SceneDelegate.swift */; };
-		F02999FF29AEAC290006ECF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02999FE29AEAC290006ECF8 /* ViewController.swift */; };
+		F02999FF29AEAC290006ECF8 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02999FE29AEAC290006ECF8 /* LibraryViewController.swift */; };
 		F0299A0229AEAC290006ECF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0299A0029AEAC290006ECF8 /* Main.storyboard */; };
 		F0299A0429AEAC2A0006ECF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0299A0329AEAC2A0006ECF8 /* Assets.xcassets */; };
 		F0299A0729AEAC2A0006ECF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0299A0529AEAC2A0006ECF8 /* LaunchScreen.storyboard */; };
+		F0299A1029AEAC7F0006ECF8 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = F0299A0F29AEAC7F0006ECF8 /* OpenAIKit */; };
+		F0299A1429AEB24C0006ECF8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F0299A1329AEB24C0006ECF8 /* SnapKit */; };
+		F0299A1629AEB2B20006ECF8 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A1529AEB2B20006ECF8 /* ImageCollectionViewCell.swift */; };
+		F0299A1829AEB2B60006ECF8 /* PlusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A1729AEB2B60006ECF8 /* PlusCollectionViewCell.swift */; };
+		F0299A1B29AEB2BE0006ECF8 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A1929AEB2BE0006ECF8 /* Manager.swift */; };
+		F0299A1C29AEB2BE0006ECF8 /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A1A29AEB2BE0006ECF8 /* ImageInfo.swift */; };
+		F0299A1E29AEB3210006ECF8 /* extens. imagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A1D29AEB3210006ECF8 /* extens. imagePicker.swift */; };
+		F0299A2129AEB3540006ECF8 /* extens. Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A1F29AEB3540006ECF8 /* extens. Alert.swift */; };
+		F0299A2229AEB3540006ECF8 /* extens. UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A2029AEB3540006ECF8 /* extens. UserDefaults.swift */; };
+		F0299A2429AEB4AE0006ECF8 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A2329AEB4AE0006ECF8 /* Image.swift */; };
+		F0299A2629AEB4E80006ECF8 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A2529AEB4E80006ECF8 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F02999F729AEAC290006ECF8 /* AiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02999FA29AEAC290006ECF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F02999FC29AEAC290006ECF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F02999FE29AEAC290006ECF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F02999FE29AEAC290006ECF8 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		F0299A0129AEAC290006ECF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0299A0329AEAC2A0006ECF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0299A0629AEAC2A0006ECF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0299A0829AEAC2A0006ECF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0299A1529AEB2B20006ECF8 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		F0299A1729AEB2B60006ECF8 /* PlusCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusCollectionViewCell.swift; sourceTree = "<group>"; };
+		F0299A1929AEB2BE0006ECF8 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		F0299A1A29AEB2BE0006ECF8 /* ImageInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageInfo.swift; sourceTree = "<group>"; };
+		F0299A1D29AEB3210006ECF8 /* extens. imagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "extens. imagePicker.swift"; sourceTree = "<group>"; };
+		F0299A1F29AEB3540006ECF8 /* extens. Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "extens. Alert.swift"; sourceTree = "<group>"; };
+		F0299A2029AEB3540006ECF8 /* extens. UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "extens. UserDefaults.swift"; sourceTree = "<group>"; };
+		F0299A2329AEB4AE0006ECF8 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		F0299A2529AEB4E80006ECF8 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0299A1029AEAC7F0006ECF8 /* OpenAIKit in Frameworks */,
+				F0299A1429AEB24C0006ECF8 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +64,7 @@
 			children = (
 				F02999F929AEAC290006ECF8 /* AiProject */,
 				F02999F829AEAC290006ECF8 /* Products */,
+				F0299A1229AEB24C0006ECF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,45 @@
 			children = (
 				F02999FA29AEAC290006ECF8 /* AppDelegate.swift */,
 				F02999FC29AEAC290006ECF8 /* SceneDelegate.swift */,
-				F02999FE29AEAC290006ECF8 /* ViewController.swift */,
+				F02999FE29AEAC290006ECF8 /* LibraryViewController.swift */,
+				F0299A2529AEB4E80006ECF8 /* PhotoViewController.swift */,
+				F0299A1929AEB2BE0006ECF8 /* Manager.swift */,
+				F0299A1529AEB2B20006ECF8 /* ImageCollectionViewCell.swift */,
+				F0299A1729AEB2B60006ECF8 /* PlusCollectionViewCell.swift */,
+				F0299A2829AEB53D0006ECF8 /* Entities */,
+				F0299A2729AEB5080006ECF8 /* Extensions */,
 				F0299A0029AEAC290006ECF8 /* Main.storyboard */,
 				F0299A0329AEAC2A0006ECF8 /* Assets.xcassets */,
 				F0299A0529AEAC2A0006ECF8 /* LaunchScreen.storyboard */,
 				F0299A0829AEAC2A0006ECF8 /* Info.plist */,
 			);
 			path = AiProject;
+			sourceTree = "<group>";
+		};
+		F0299A1229AEB24C0006ECF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0299A2729AEB5080006ECF8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F0299A1D29AEB3210006ECF8 /* extens. imagePicker.swift */,
+				F0299A1F29AEB3540006ECF8 /* extens. Alert.swift */,
+				F0299A2029AEB3540006ECF8 /* extens. UserDefaults.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F0299A2829AEB53D0006ECF8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F0299A2329AEB4AE0006ECF8 /* Image.swift */,
+				F0299A1A29AEB2BE0006ECF8 /* ImageInfo.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +138,10 @@
 			dependencies = (
 			);
 			name = AiProject;
+			packageProductDependencies = (
+				F0299A0F29AEAC7F0006ECF8 /* OpenAIKit */,
+				F0299A1329AEB24C0006ECF8 /* SnapKit */,
+			);
 			productName = AiProject;
 			productReference = F02999F729AEAC290006ECF8 /* AiProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +170,11 @@
 				Base,
 			);
 			mainGroup = F02999EE29AEAC290006ECF8;
+			packageReferences = (
+				F0299A0E29AEAC7F0006ECF8 /* XCRemoteSwiftPackageReference "openai-kit" */,
+				F0299A1129AEAF950006ECF8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F0299A2929AEC59A0006ECF8 /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+			);
 			productRefGroup = F02999F829AEAC290006ECF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F02999FF29AEAC290006ECF8 /* ViewController.swift in Sources */,
+				F02999FF29AEAC290006ECF8 /* LibraryViewController.swift in Sources */,
+				F0299A2229AEB3540006ECF8 /* extens. UserDefaults.swift in Sources */,
+				F0299A1B29AEB2BE0006ECF8 /* Manager.swift in Sources */,
+				F0299A1E29AEB3210006ECF8 /* extens. imagePicker.swift in Sources */,
 				F02999FB29AEAC290006ECF8 /* AppDelegate.swift in Sources */,
+				F0299A2629AEB4E80006ECF8 /* PhotoViewController.swift in Sources */,
+				F0299A1C29AEB2BE0006ECF8 /* ImageInfo.swift in Sources */,
+				F0299A2129AEB3540006ECF8 /* extens. Alert.swift in Sources */,
+				F0299A1629AEB2B20006ECF8 /* ImageCollectionViewCell.swift in Sources */,
+				F0299A1829AEB2B60006ECF8 /* PlusCollectionViewCell.swift in Sources */,
+				F0299A2429AEB4AE0006ECF8 /* Image.swift in Sources */,
 				F02999FD29AEAC290006ECF8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +431,46 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F0299A0E29AEAC7F0006ECF8 /* XCRemoteSwiftPackageReference "openai-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dylanshine/openai-kit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F0299A1129AEAF950006ECF8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		F0299A2929AEC59A0006ECF8 /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marcodotio/OpenAIKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0299A0F29AEAC7F0006ECF8 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0299A0E29AEAC7F0006ECF8 /* XCRemoteSwiftPackageReference "openai-kit" */;
+			productName = OpenAIKit;
+		};
+		F0299A1329AEB24C0006ECF8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0299A1129AEAF950006ECF8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F02999EF29AEAC290006ECF8 /* Project object */;
 }
