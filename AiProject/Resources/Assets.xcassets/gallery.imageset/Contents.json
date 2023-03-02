@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "gallery-icon-png-19.jpg.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -10,11 +10,8 @@
 		F02999FB29AEAC290006ECF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02999FA29AEAC290006ECF8 /* AppDelegate.swift */; };
 		F02999FD29AEAC290006ECF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02999FC29AEAC290006ECF8 /* SceneDelegate.swift */; };
 		F02999FF29AEAC290006ECF8 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02999FE29AEAC290006ECF8 /* LibraryViewController.swift */; };
-		F0299A0229AEAC290006ECF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0299A0029AEAC290006ECF8 /* Main.storyboard */; };
 		F0299A0429AEAC2A0006ECF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0299A0329AEAC2A0006ECF8 /* Assets.xcassets */; };
 		F0299A0729AEAC2A0006ECF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0299A0529AEAC2A0006ECF8 /* LaunchScreen.storyboard */; };
-		F0299A1029AEAC7F0006ECF8 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = F0299A0F29AEAC7F0006ECF8 /* OpenAIKit */; };
-		F0299A1429AEB24C0006ECF8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F0299A1329AEB24C0006ECF8 /* SnapKit */; };
 		F0299A1629AEB2B20006ECF8 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A1529AEB2B20006ECF8 /* ImageCollectionViewCell.swift */; };
 		F0299A1829AEB2B60006ECF8 /* PlusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A1729AEB2B60006ECF8 /* PlusCollectionViewCell.swift */; };
 		F0299A1B29AEB2BE0006ECF8 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A1929AEB2BE0006ECF8 /* Manager.swift */; };
@@ -24,6 +21,12 @@
 		F0299A2229AEB3540006ECF8 /* extens. UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A2029AEB3540006ECF8 /* extens. UserDefaults.swift */; };
 		F0299A2429AEB4AE0006ECF8 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A2329AEB4AE0006ECF8 /* Image.swift */; };
 		F0299A2629AEB4E80006ECF8 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A2529AEB4E80006ECF8 /* PhotoViewController.swift */; };
+		F0299A2B29AF70D00006ECF8 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = F0299A2A29AF70D00006ECF8 /* OpenAIKit */; };
+		F0299A2E29AF716C0006ECF8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F0299A2D29AF716C0006ECF8 /* SnapKit */; };
+		F0299A3229AF71A30006ECF8 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A3129AF71A30006ECF8 /* Keys.swift */; };
+		F0299A3429AFDCC00006ECF8 /* ext UIimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A3329AFDCC00006ECF8 /* ext UIimage.swift */; };
+		F0299A3729AFF9B40006ECF8 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A3629AFF9B40006ECF8 /* AppFont.swift */; };
+		F0299A3929AFF9B80006ECF8 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0299A3829AFF9B80006ECF8 /* AppColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +34,6 @@
 		F02999FA29AEAC290006ECF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F02999FC29AEAC290006ECF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F02999FE29AEAC290006ECF8 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
-		F0299A0129AEAC290006ECF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0299A0329AEAC2A0006ECF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0299A0629AEAC2A0006ECF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0299A0829AEAC2A0006ECF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +46,10 @@
 		F0299A2029AEB3540006ECF8 /* extens. UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "extens. UserDefaults.swift"; sourceTree = "<group>"; };
 		F0299A2329AEB4AE0006ECF8 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		F0299A2529AEB4E80006ECF8 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		F0299A3129AF71A30006ECF8 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		F0299A3329AFDCC00006ECF8 /* ext UIimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ext UIimage.swift"; sourceTree = "<group>"; };
+		F0299A3629AFF9B40006ECF8 /* AppFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		F0299A3829AFF9B80006ECF8 /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0299A1029AEAC7F0006ECF8 /* OpenAIKit in Frameworks */,
-				F0299A1429AEB24C0006ECF8 /* SnapKit in Frameworks */,
+				F0299A2B29AF70D00006ECF8 /* OpenAIKit in Frameworks */,
+				F0299A2E29AF716C0006ECF8 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,17 +87,11 @@
 			children = (
 				F02999FA29AEAC290006ECF8 /* AppDelegate.swift */,
 				F02999FC29AEAC290006ECF8 /* SceneDelegate.swift */,
-				F02999FE29AEAC290006ECF8 /* LibraryViewController.swift */,
-				F0299A2529AEB4E80006ECF8 /* PhotoViewController.swift */,
-				F0299A1929AEB2BE0006ECF8 /* Manager.swift */,
-				F0299A1529AEB2B20006ECF8 /* ImageCollectionViewCell.swift */,
-				F0299A1729AEB2B60006ECF8 /* PlusCollectionViewCell.swift */,
-				F0299A2829AEB53D0006ECF8 /* Entities */,
-				F0299A2729AEB5080006ECF8 /* Extensions */,
-				F0299A0029AEAC290006ECF8 /* Main.storyboard */,
-				F0299A0329AEAC2A0006ECF8 /* Assets.xcassets */,
-				F0299A0529AEAC2A0006ECF8 /* LaunchScreen.storyboard */,
 				F0299A0829AEAC2A0006ECF8 /* Info.plist */,
+				F0299A3A29AFF9F30006ECF8 /* Presentation Layer */,
+				F0299A3B29AFFA1A0006ECF8 /* Business Logic Layer */,
+				F0299A2729AEB5080006ECF8 /* Extensions */,
+				F0299A3529AFF98D0006ECF8 /* Resources */,
 			);
 			path = AiProject;
 			sourceTree = "<group>";
@@ -109,6 +109,7 @@
 				F0299A1D29AEB3210006ECF8 /* extens. imagePicker.swift */,
 				F0299A1F29AEB3540006ECF8 /* extens. Alert.swift */,
 				F0299A2029AEB3540006ECF8 /* extens. UserDefaults.swift */,
+				F0299A3329AFDCC00006ECF8 /* ext UIimage.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -117,9 +118,49 @@
 			isa = PBXGroup;
 			children = (
 				F0299A2329AEB4AE0006ECF8 /* Image.swift */,
+				F0299A3129AF71A30006ECF8 /* Keys.swift */,
 				F0299A1A29AEB2BE0006ECF8 /* ImageInfo.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		F0299A3529AFF98D0006ECF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0299A3829AFF9B80006ECF8 /* AppColor.swift */,
+				F0299A3629AFF9B40006ECF8 /* AppFont.swift */,
+				F0299A0329AEAC2A0006ECF8 /* Assets.xcassets */,
+				F0299A0529AEAC2A0006ECF8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F0299A3A29AFF9F30006ECF8 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				F02999FE29AEAC290006ECF8 /* LibraryViewController.swift */,
+				F0299A2529AEB4E80006ECF8 /* PhotoViewController.swift */,
+				F0299A3C29AFFA420006ECF8 /* Cells */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		F0299A3B29AFFA1A0006ECF8 /* Business Logic Layer */ = {
+			isa = PBXGroup;
+			children = (
+				F0299A2829AEB53D0006ECF8 /* Entities */,
+				F0299A1929AEB2BE0006ECF8 /* Manager.swift */,
+			);
+			path = "Business Logic Layer";
+			sourceTree = "<group>";
+		};
+		F0299A3C29AFFA420006ECF8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F0299A1729AEB2B60006ECF8 /* PlusCollectionViewCell.swift */,
+				F0299A1529AEB2B20006ECF8 /* ImageCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +180,8 @@
 			);
 			name = AiProject;
 			packageProductDependencies = (
-				F0299A0F29AEAC7F0006ECF8 /* OpenAIKit */,
-				F0299A1329AEB24C0006ECF8 /* SnapKit */,
+				F0299A2A29AF70D00006ECF8 /* OpenAIKit */,
+				F0299A2D29AF716C0006ECF8 /* SnapKit */,
 			);
 			productName = AiProject;
 			productReference = F02999F729AEAC290006ECF8 /* AiProject.app */;
@@ -171,9 +212,8 @@
 			);
 			mainGroup = F02999EE29AEAC290006ECF8;
 			packageReferences = (
-				F0299A0E29AEAC7F0006ECF8 /* XCRemoteSwiftPackageReference "openai-kit" */,
-				F0299A1129AEAF950006ECF8 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				F0299A2929AEC59A0006ECF8 /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+				F0299A2C29AF716C0006ECF8 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = F02999F829AEAC290006ECF8 /* Products */;
 			projectDirPath = "";
@@ -191,7 +231,6 @@
 			files = (
 				F0299A0729AEAC2A0006ECF8 /* LaunchScreen.storyboard in Resources */,
 				F0299A0429AEAC2A0006ECF8 /* Assets.xcassets in Resources */,
-				F0299A0229AEAC290006ECF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,11 +245,15 @@
 				F0299A2229AEB3540006ECF8 /* extens. UserDefaults.swift in Sources */,
 				F0299A1B29AEB2BE0006ECF8 /* Manager.swift in Sources */,
 				F0299A1E29AEB3210006ECF8 /* extens. imagePicker.swift in Sources */,
+				F0299A3229AF71A30006ECF8 /* Keys.swift in Sources */,
 				F02999FB29AEAC290006ECF8 /* AppDelegate.swift in Sources */,
+				F0299A3429AFDCC00006ECF8 /* ext UIimage.swift in Sources */,
 				F0299A2629AEB4E80006ECF8 /* PhotoViewController.swift in Sources */,
 				F0299A1C29AEB2BE0006ECF8 /* ImageInfo.swift in Sources */,
+				F0299A3929AFF9B80006ECF8 /* AppColor.swift in Sources */,
 				F0299A2129AEB3540006ECF8 /* extens. Alert.swift in Sources */,
 				F0299A1629AEB2B20006ECF8 /* ImageCollectionViewCell.swift in Sources */,
+				F0299A3729AFF9B40006ECF8 /* AppFont.swift in Sources */,
 				F0299A1829AEB2B60006ECF8 /* PlusCollectionViewCell.swift in Sources */,
 				F0299A2429AEB4AE0006ECF8 /* Image.swift in Sources */,
 				F02999FD29AEAC290006ECF8 /* SceneDelegate.swift in Sources */,
@@ -220,14 +263,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F0299A0029AEAC290006ECF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0299A0129AEAC290006ECF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F0299A0529AEAC2A0006ECF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -343,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -365,7 +400,6 @@
 				INFOPLIST_FILE = AiProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -393,7 +427,6 @@
 				INFOPLIST_FILE = AiProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -433,22 +466,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F0299A0E29AEAC7F0006ECF8 /* XCRemoteSwiftPackageReference "openai-kit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/dylanshine/openai-kit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		F0299A1129AEAF950006ECF8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				branch = develop;
-				kind = branch;
-			};
-		};
 		F0299A2929AEC59A0006ECF8 /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/marcodotio/OpenAIKit.git";
@@ -457,17 +474,25 @@
 				minimumVersion = 1.1.3;
 			};
 		};
+		F0299A2C29AF716C0006ECF8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F0299A0F29AEAC7F0006ECF8 /* OpenAIKit */ = {
+		F0299A2A29AF70D00006ECF8 /* OpenAIKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F0299A0E29AEAC7F0006ECF8 /* XCRemoteSwiftPackageReference "openai-kit" */;
+			package = F0299A2929AEC59A0006ECF8 /* XCRemoteSwiftPackageReference "OpenAIKit" */;
 			productName = OpenAIKit;
 		};
-		F0299A1329AEB24C0006ECF8 /* SnapKit */ = {
+		F0299A2D29AF716C0006ECF8 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F0299A1129AEAF950006ECF8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = F0299A2C29AF716C0006ECF8 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */

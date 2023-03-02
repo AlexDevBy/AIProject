@@ -13,7 +13,7 @@ class Image {
     var name: String
     
     init(name: String) {
-        image = UIImage(named: "plus") ?? UIImage()
+        image = UIImage(named: "Plus") ?? UIImage()
         self.name = name
     }
     
